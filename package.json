@@ -1,0 +1,19 @@
+{
+  "name": "museudocomputador",
+  "version": "0.0.0",
+  "description": "Site do Museu do Computador",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AgtLucas/museudocomputador.git"
+  },
+  "author": "Lucas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgtLucas/museudocomputador/issues"
+  },
+  "homepage": "https://github.com/AgtLucas/museudocomputador"
+}
