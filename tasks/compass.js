@@ -10,7 +10,7 @@ module.exports = function compass(grunt) {
     dist: {
       options: {
         require: 'susy',
-        config: '../config.rb'
+        config: './config.rb'
       }
     }
   };
