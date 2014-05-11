@@ -3,7 +3,8 @@
 module.exports = function ContactModel() {
 
   return {
-    name: 'contact'
+    name: 'contact',
+    title: 'Contato'
   };
 
 };
