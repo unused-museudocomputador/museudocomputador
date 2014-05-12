@@ -29,6 +29,7 @@
     "grunt-contrib-jshint": "^0.6.5",
     "grunt": "^0.4.4",
     "grunt-mocha-cli": "^1.8.0",
-    "grunt-contrib-compass": "^0.7.2"
+    "grunt-contrib-compass": "^0.7.2",
+    "grunt-contrib-watch": "^0.6.1"
   }
 }
