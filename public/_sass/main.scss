@@ -1,5 +1,8 @@
-body {
-  background: #000;
-  color: #f3f3f3;
-  font-size: 1em;
-}
+// Import vendor's files
+@import "vendor/normalize";
+
+// Import views files
+@import "views/index";
+
+// Base
+@import "base";
