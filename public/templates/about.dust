@@ -1,0 +1,7 @@
+{>"layouts/master" /}
+
+{<title}Sobre o Museu{/title}
+
+{<body}
+  <h1>Sobre o Museu</h1>
+{/body}
