@@ -6,7 +6,7 @@ module.exports = function (app) {
 
   var model = new TimelineModel();
 
-  app.get('linha-do-tempo', function (req, res) {
+  app.get('/linha-do-tempo', function (req, res) {
 
     res.render('timeline', model);
 
