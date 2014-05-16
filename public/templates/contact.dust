@@ -2,6 +2,6 @@
 
 {<title}Contato{/title}
 
-{<body}
+{<yield}
   <h1>Contato</h1>
-{/body}
+{/yield}

@@ -2,6 +2,6 @@
 
 {<title}Sobre o Museu{/title}
 
-{<body}
+{<yield}
   <h1>Sobre o Museu</h1>
-{/body}
+{/yield}

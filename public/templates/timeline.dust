@@ -2,6 +2,6 @@
 
 {<title}Linha do Tempo{/title}
 
-{<body}
+{<yield}
   <h1>Linha do tempo</h1>
-{/body}
+{/yield}
