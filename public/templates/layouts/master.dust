@@ -6,9 +6,7 @@
     <link rel="stylesheet" href="/css/main.css" />
 </head>
 <body>
-<div id="wrapper">
-    {+body /}
-</div>
+  {+body /}
 <script data-main="/js/app" src="components/requirejs/require.js"></script>
 </body>
 </html>
