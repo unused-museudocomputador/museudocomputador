@@ -1,0 +1,7 @@
+{>"layouts/master" /}
+
+{<title}Contato{/title}
+
+{<yield}
+  <h1>Contato</h1>
+{/yield}

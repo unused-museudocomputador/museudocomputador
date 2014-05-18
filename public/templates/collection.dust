@@ -1,0 +1,7 @@
+{>"layouts/master" /}
+
+{<title}Acervo{/title}
+
+{<yield}
+  <h1>Acervo</h1>
+{/yield}

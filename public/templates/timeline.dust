@@ -1,0 +1,7 @@
+{>"layouts/master" /}
+
+{<title}Linha do Tempo{/title}
+
+{<yield}
+  <h1>Linha do tempo</h1>
+{/yield}
