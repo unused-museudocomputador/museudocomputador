@@ -1,7 +1,0 @@
-{>"layouts/master" /}
-
-{<title}Sobre o Museu{/title}
-
-{<yield}
-  <h1>Sobre o Museu</h1>
-{/yield}
