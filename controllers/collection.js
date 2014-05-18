@@ -2,11 +2,11 @@
 
 var CollectionModel = require('../models/collection');
 
-module.exports = function (app) {
+module.exports = function (router) {
 
   var model = new CollectionModel();
 
-  app.get('/acervo', function (req, res) {
+  router.get('/acervo', function (req, res) {
 
     res.render('collection', model);
 

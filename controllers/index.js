@@ -2,11 +2,11 @@
 
 var IndexModel = require('../models/index');
 
-module.exports = function (app) {
+module.exports = function (router) {
 
   var model = new IndexModel();
 
-  app.get('/', function (req, res) {
+  router.get('/', function (req, res) {
 
     res.render('index', model);
 

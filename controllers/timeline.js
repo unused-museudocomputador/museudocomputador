@@ -2,11 +2,11 @@
 
 var TimelineModel = require('../models/timeline');
 
-module.exports = function (app) {
+module.exports = function (router) {
 
   var model = new TimelineModel();
 
-  app.get('/linha-do-tempo', function (req, res) {
+  router.get('/linha-do-tempo', function (req, res) {
 
     res.render('timeline', model);
 

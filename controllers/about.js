@@ -2,11 +2,11 @@
 
 var AboutModel = require('../models/about');
 
-module.exports = function (app) {
+module.exports = function (router) {
 
   var model = new AboutModel();
 
-  app.get('/sobre', function (req, res) {
+  router.get('/sobre', function (req, res) {
 
     res.render('about', model);
 

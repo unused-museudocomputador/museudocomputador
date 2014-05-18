@@ -2,11 +2,11 @@
 
 var ContactModel = require('../models/contact');
 
-module.exports = function (app) {
+module.exports = function (router) {
 
   var model = new ContactModel();
 
-  app.get('/contato', function (req, res) {
+  router.get('/contato', function (req, res) {
 
     res.render('contact', model);
 
