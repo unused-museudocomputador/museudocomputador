@@ -1,0 +1,25 @@
+{
+  "name": "museudocomputador",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/AgtLucas/museudocomputador",
+  "authors": [
+    "Lucas Churchill <lucas@agtlucas.com>"
+  ],
+  "description": "Site do Museu do Computador",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dustjs-linkedin-helpers": "^1.1.1",
+    "dustjs-linkedin": "^2.0.3",
+    "requirejs": "^2.1.11",
+    "normalize-css": "~3.0.1"
+  }
+}
