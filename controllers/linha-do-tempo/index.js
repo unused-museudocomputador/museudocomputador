@@ -1,10 +1,10 @@
 'use strict';
 
-var AcervoModel = require('../../models/acervo');
+var LinhaDoTempoModel = require('../../models/linha-do-tempo');
 
 module.exports = function (router) {
 
-  var model = new AcervoModel();
+  var model = new LinhaDoTempoModel();
 
   router.get('/', function (req, res) {
 
@@ -13,7 +13,7 @@ module.exports = function (router) {
         res.json(model);
       },
       html: function () {
-        res.render('acervo/index', model);
+        res.render('linha-do-tempo/index', model);
       }
     });
   });
