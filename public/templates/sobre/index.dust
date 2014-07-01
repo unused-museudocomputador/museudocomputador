@@ -1,8 +1,0 @@
-{>"layouts/master" /}
-
-{<title}Sobre{/title}
-
-{<yield}
-    <h1>{@pre type="content" key="greeting"/}</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, necessitatibus fugit non dignissimos quas excepturi nostrum obcaecati recusandae animi error doloribus dolorum voluptates aspernatur cumque nihil. Laudantium vitae deserunt cum.</p>
-{/yield}
