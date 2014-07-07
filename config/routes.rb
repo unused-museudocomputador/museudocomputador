@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'timeline/index'
+
   get 'contact/index'
 
   root 'home#index'
