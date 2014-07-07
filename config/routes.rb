@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  get 'collection/index'
+  get 'colecao', to: 'collection#index'
 
-  get 'collection/items'
+  get 'colecao/acervo', to: 'collection#items'
 
-  get 'timeline/index'
+  get 'linha-do-tempo', to: 'timeline#index'
 
-  get 'contact/index'
+  get 'contato', to: 'contact#index'
 
   root 'home#index'
 
