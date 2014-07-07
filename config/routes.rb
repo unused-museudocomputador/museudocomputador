@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'collection/index'
+
+  get 'collection/items'
+
   get 'timeline/index'
 
   get 'contact/index'
