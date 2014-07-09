@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'about/index'
+
+  get 'sobre', to: 'about#index'
 
   get 'colecao', to: 'collection#index'
 
