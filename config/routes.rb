@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'about/index'
+
   get 'colecao', to: 'collection#index'
 
   get 'colecao/acervo', to: 'collection#items'
