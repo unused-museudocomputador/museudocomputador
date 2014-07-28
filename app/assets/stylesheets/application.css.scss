@@ -15,3 +15,12 @@
  */
 @import 'bourbon';
 @import 'neat';
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrap {
+  @include outer-container;
+}
