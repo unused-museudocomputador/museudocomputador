@@ -38,4 +38,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Add by me:
+# Neat by Bourbon
 gem 'neat'
+# Normalize
+gem 'rails-assets-normalize.css'
