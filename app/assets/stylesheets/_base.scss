@@ -1,0 +1,45 @@
+/*------------------------------------*\
+  Base styles
+\*------------------------------------*/
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  overflow-y: scroll;
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+
+  @include media($large-desktop) {
+    font-size: 1em;
+  }
+
+  @include media($desktop) {
+    font-size: 1em;
+  }
+
+  @include media($tablet) {
+    font-size: .875em;
+  }
+
+  @include media($mobile) {
+    font-size: .75em;
+  }
+}
+
+// .wrap {
+//   @include outer-container;
+//   @include media($tablet) {
+//     padding: 0 em(30);
+//   }
+//   @include media($mobile) {
+//     padding: 0 em(20);
+//   }
+// }
+
+// .main-header {
+//   margin: 0;
+// }
