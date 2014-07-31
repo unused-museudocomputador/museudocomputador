@@ -21,3 +21,10 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+.wrap {
+  @include outer-container;
+  @include media($tablet) {
+    padding: 0 em(20);
+  }
+}
