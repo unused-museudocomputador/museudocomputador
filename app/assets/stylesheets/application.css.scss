@@ -10,8 +10,8 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_self
  *= require normalize.css
+ *= require_self
  */
 @import 'bourbon';
 @import 'grid-settings';
@@ -46,12 +46,16 @@ html {
   }
 }
 
-.wrap {
-  @include outer-container;
-  @include media($tablet) {
-    padding: 0 em(30);
-  }
-  @include media($mobile) {
-    padding: 0 em(20);
-  }
-}
+// .wrap {
+//   @include outer-container;
+//   @include media($tablet) {
+//     padding: 0 em(30);
+//   }
+//   @include media($mobile) {
+//     padding: 0 em(20);
+//   }
+// }
+
+// .main-header {
+//   margin: 0;
+// }
