@@ -49,6 +49,9 @@ html {
 .wrap {
   @include outer-container;
   @include media($tablet) {
+    padding: 0 em(30);
+  }
+  @include media($mobile) {
     padding: 0 em(20);
   }
 }
