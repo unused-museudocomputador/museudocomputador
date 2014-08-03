@@ -30,16 +30,19 @@ html {
   }
 }
 
-// .wrap {
-//   @include outer-container;
-//   @include media($tablet) {
-//     padding: 0 em(30);
-//   }
-//   @include media($mobile) {
-//     padding: 0 em(20);
-//   }
-// }
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-// .main-header {
-//   margin: 0;
-// }
+.wrapper {
+  @include outer-container;
+  @include media($tablet) {
+    padding: 0 em(30);
+  }
+  @include media($mobile) {
+    padding: 0 em(20);
+  }
+}
