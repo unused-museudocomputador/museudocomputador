@@ -26,9 +26,39 @@
 </head>
 <body>
 
-<main class="main-content">
+<header class="main-header" role="banner">
+  <div class="wrapper">
+    <a href="#" class="site-logo">Museu do Computador</a>
+    <nav class="site-nav" role="navigation">
+      <ul class="site_nav__list">
+        <li class="site-nav__item"><a href="/sobre" class="site-nav__link">Sobre</a></li>
+        <li class="site-nav__item"><a href="/acervo" class="site-nav__link">Acervo</a></li>
+        <li class="site-nav__item"><a href="/linha-do-tempo" class="site-nav__link">Linha do Tempo</a></li>
+        <li class="site-nav__item"><a href="/contato" class="site-nav__link">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="main-content" role="main">
   <%= yield %>
 </main>
+
+<footer class="main-footer" role="contentinfo">
+  <div class="wrapper">
+
+    <section class="supporting-cast">
+      <ul class="supporting-cast__list">
+        <li class="supporting-cast__item"><a href="#" class="supporting-cast_link">Alpha</a></li>
+        <li class="supporting-cast__item"><a href="#" class="supporting-cast_link">Bravo</a></li>
+        <li class="supporting-cast__item"><a href="#" class="supporting-cast_link">Charlie</a></li>
+      </ul>
+    </section>
+
+    <small class="main-footer__copyright">&copy; <%= Time.now.year %></small>
+
+  </div>
+</footer>
 
 </body>
 </html>
