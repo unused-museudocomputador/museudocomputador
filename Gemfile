@@ -43,3 +43,6 @@ gem 'spring',        group: :development
 gem 'neat'
 # Normalize
 gem 'rails-assets-normalize.css'
+
+# Assets
+gem 'rails_12factor', group: :production
