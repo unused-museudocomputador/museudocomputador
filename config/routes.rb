@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
 
-  get 'collection/index'
-
   root 'home#index'
 
   get 'sobre', to: 'about#index'
 
+  get 'acervo', to: 'collection#index'
+
   get 'contato', to: 'contact#index'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
