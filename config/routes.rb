@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'collection/index'
+
   root 'home#index'
 
   get 'sobre', to: 'about#index'
