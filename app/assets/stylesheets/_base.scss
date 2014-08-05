@@ -2,11 +2,14 @@
   Base styles
 \*------------------------------------*/
 
+$b2: #2b2b2b;
+
 html {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   overflow-y: scroll;
   min-height: 100%;
+  color: $b2;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
@@ -29,6 +32,11 @@ html {
   }
 }
 
+a {
+  text-decoration: none;
+  color: $b2;
+}
+
 ol,
 ul {
   list-style: none;
@@ -44,4 +52,9 @@ ul {
   @include media($mobile) {
     padding: 0 em(20);
   }
+}
+
+.site-logo__img {
+  width: 100px;
+  height: 100px;
 }
