@@ -2,12 +2,23 @@
   Helpers
 \*------------------------------------*/
 
+.cf {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
 .flexboxtweener,
 .flexboxtweener>body {
   height: 100%;
 }
 
-.flex-body {
+@mixin flex-body {
   min-height: 100vh;
   /**
   * Making the <body> element behave like a flexbox container:

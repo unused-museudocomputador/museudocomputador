@@ -40,7 +40,7 @@ html {
 }
 
 body {
-  @extend .flex-body;
+  @include flex-body;
 }
 
 a {
