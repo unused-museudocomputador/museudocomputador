@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'timeline/index'
+
   root 'home#index'
 
   get 'sobre', to: 'about#index'
