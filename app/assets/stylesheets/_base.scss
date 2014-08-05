@@ -16,7 +16,6 @@ html {
   line-height: 1.5;
   overflow-y: scroll;
   min-height: 100%;
-  color: $b2;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
@@ -40,6 +39,8 @@ html {
 }
 
 body {
+  background: $c-white;
+  color: $b2;
   @include flex-body;
 }
 
@@ -68,6 +69,7 @@ ul {
 .site-logo__img {
   width: 100px;
   height: 100px;
+  fill: $b2;
 }
 
 main {
