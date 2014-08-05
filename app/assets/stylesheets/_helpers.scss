@@ -2,6 +2,11 @@
   Helpers
 \*------------------------------------*/
 
+.flexboxtweener,
+.flexboxtweener>body {
+  height: 100%;
+}
+
 .flex-body {
   min-height: 100vh;
   /**
