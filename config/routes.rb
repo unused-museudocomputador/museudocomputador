@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
 
-  get 'timeline/index'
-
   root 'home#index'
 
   get 'sobre', to: 'about#index'
@@ -9,6 +7,8 @@ Rails.application.routes.draw do
   get 'acervo', to: 'collection#index'
 
   get 'contato', to: 'contact#index'
+
+  get 'linha-do-tempo', to: 'timeline#index'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
