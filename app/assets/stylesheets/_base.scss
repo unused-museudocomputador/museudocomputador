@@ -2,7 +2,14 @@
   Base styles
 \*------------------------------------*/
 
-$b2: #2b2b2b;
+@import 'colors';
+@import 'helpers';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
 html {
   font-family: "Open Sans", sans-serif;
@@ -32,6 +39,10 @@ html {
   }
 }
 
+body {
+  @extend .flex-body;
+}
+
 a {
   text-decoration: none;
   color: $b2;
@@ -57,4 +68,11 @@ ul {
 .site-logo__img {
   width: 100px;
   height: 100px;
+}
+
+main {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  -webkit-flex: 1 0 auto;
 }
