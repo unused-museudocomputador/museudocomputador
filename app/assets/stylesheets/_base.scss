@@ -39,7 +39,7 @@ html {
 }
 
 body {
-  background: $c-white;
+  background: $apple-blah;
   color: $b2;
   @include flex-body;
 }
@@ -58,11 +58,9 @@ ul {
 
 .wrapper {
   @include outer-container;
+  padding: em(20);
   @include media($tablet) {
     padding: 0 em(30);
-  }
-  @include media($mobile) {
-    padding: 0 em(20);
   }
 }
 
