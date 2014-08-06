@@ -22,20 +22,21 @@ html {
    -webkit-font-smoothing: antialiased;
 
   @include media($large-desktop) {
-    font-size: 1em;
+    font-size: rem(16);
   }
 
   @include media($desktop) {
-    font-size: 1em;
+    font-size: rem(16);
   }
 
   @include media($tablet) {
-    font-size: .875em;
+    font-size: rem(14);
   }
 
   @include media($mobile) {
-    font-size: .75em;
+    font-size: rem(14);
   }
+
 }
 
 body {
