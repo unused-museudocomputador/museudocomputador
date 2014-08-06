@@ -2,8 +2,8 @@
 @import 'neat-helpers';
 
 // Remove this on production
-$visual-grid: true;
-$visual-grid-index: front;
+// $visual-grid: true;
+// $visual-grid-index: front;
 
 $large-desktop: new-breakpoint(min-width 81em min-height 51em 12);
 $desktop-x: new-breakpoint(min-width 50em min-height 51em 12);
