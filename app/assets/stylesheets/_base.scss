@@ -56,6 +56,27 @@ ul {
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: $apple-blah;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $apple-grey;
+}
+
+::-moz-selection {
+  background: $apple-grey;
+  color: $apple-blah;
+}
+::selection {
+  background: $apple-grey;
+  color: $apple-blah;
+}
+
 .wrapper {
   @include outer-container;
   padding: em(20);
