@@ -9,7 +9,7 @@ $large-desktop: new-breakpoint(min-width 81em min-height 51em 12);
 $desktop-x: new-breakpoint(min-width 50em min-height 51em 12);
 $desktop: new-breakpoint(min-width 50em 12);
 
-$tablet: new-breakpoint(min-width 31em max-width 50em 8);
+$tablet: new-breakpoint(min-width 30em max-width 50em 8);
 $mobile: new-breakpoint(max-width 30em 4);
 
 $mobile-landscape: new-breakpoint(min-width 30em max-width 100em 4 orientation 'landscape' 4);
