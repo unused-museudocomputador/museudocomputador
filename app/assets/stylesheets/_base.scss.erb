@@ -85,9 +85,20 @@ img {
 
 .wrapper {
   @include outer-container;
-  padding: em(20);
+  padding: 0 em(20);
   @include media($tablet) {
     padding: 0 em(30);
+  }
+  @include media($mobile) {
+    padding: 0 em(30);
+  }
+}
+
+.main-header {
+  background: $apple-grey;
+  padding: em(10) 0;
+  a {
+    color: $apple-white;
   }
 }
 
@@ -104,6 +115,20 @@ img {
   @include media($mobile) {
     width: 50px;
     height: 50px;
+  }
+}
+
+.site-logo__text {
+  text-transform: uppercase;
+}
+
+.site-nav {
+
+  @include media($mobile) {
+    position: absolute;
+    left: 0;
+    @include transform(translate3d(-100%, 0, 0));
+    @include backface-visibility(hidden);
   }
 }
 
