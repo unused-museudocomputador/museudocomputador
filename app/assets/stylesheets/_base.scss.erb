@@ -120,6 +120,13 @@ img {
 
 .site-logo__text {
   text-transform: uppercase;
+
+  @include media($mobile) {
+    position: relative;
+    top: 0;
+    display: block;
+    text-align: center;
+  }
 }
 
 .site-nav {
@@ -132,6 +139,7 @@ img {
     @include transform(translate3d(-100%, 0, 0));
     @include backface-visibility(hidden);
   }
+
 }
 
 main {
