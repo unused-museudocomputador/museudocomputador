@@ -113,6 +113,8 @@ img {
     height: 70px;
   }
   @include media($mobile) {
+    position: relative;
+    top: 2px;
     width: 50px;
     height: 50px;
   }
@@ -122,9 +124,11 @@ img {
   text-transform: uppercase;
 
   @include media($mobile) {
-    position: relative;
-    top: 0;
-    display: block;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    left: 0;
+    display: inline-block;
     text-align: center;
   }
 }
