@@ -103,6 +103,15 @@ img {
   }
 }
 
+.site-logo {
+
+  @include media($desktop) {
+    display: block;
+    text-align: center;
+  }
+
+}
+
 .site-logo__img {
   fill: $b2;
   @include media($desktop) {
@@ -136,6 +145,10 @@ img {
 
 .site-nav {
 
+  @include media($desktop) {
+    text-align: center;
+  }
+
   @include media($mobile) {
     position: absolute;
     width: 70%;
@@ -145,6 +158,19 @@ img {
     @include backface-visibility(hidden);
   }
 
+}
+
+.site-nav__item {
+
+  @include media($desktop) {
+    display: inline-block;
+    margin: 5px 10px;
+  }
+
+}
+
+.site-nav__link {
+  text-transform: uppercase;
 }
 
 main {
