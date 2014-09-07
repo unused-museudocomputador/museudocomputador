@@ -3,7 +3,7 @@ source 'https://rails-assets.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
-# Use sqlite3 as the database for Active Record
+# Use PostgreSQL as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -44,5 +44,42 @@ gem 'neat'
 # Normalize
 gem 'rails-assets-normalize.css'
 
+# Retreat Hell!
+gem 'rails-assets-retreat-hell'
+
+# scrollReveal
+gem 'rails-assets-scrollReveal.js'
+
+# jQuery Validation
+gem 'rails-assets-jquery-validation'
+
+# NProgress
+gem 'rails-assets-nprogress'
+
+# Unicorn
+ gem 'unicorn'
+
+# Rack Timeout
+gem "rack-timeout"
+
 # Assets
 gem 'rails_12factor', group: :production
+gem 'heroku_rails_deflate', :group => :production
+
+# Email
+gem 'mail_form'
+
+# Form helpers
+gem 'simple_form'
+
+# Devise
+gem 'devise'
+
+# New Relic
+gem 'newrelic_rpm'
+
+
+# Only for dev and test
+group :development, :test do
+gem 'foreman'
+end
