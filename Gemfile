@@ -75,6 +75,9 @@ gem 'devise'
 # New Relic
 gem 'newrelic_rpm'
 
+# RequireJS Rails
+gem 'requirejs-rails'
+
 
 # Only for dev and test
 group :development, :test do
