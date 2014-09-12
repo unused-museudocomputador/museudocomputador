@@ -1,0 +1,12 @@
+waitSeconds: 5
+
+paths:
+  # application: 'application'
+
+  jquery: 'jquery/jquery'
+  jquery_ujs: 'jquery_ujs'
+
+shim:
+
+  jquery_ujs:
+    deps: ['jquery']
