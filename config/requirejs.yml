@@ -1,12 +1,18 @@
 waitSeconds: 5
 
 paths:
-  # application: 'application'
+  delta: 'delta'
+  application: 'application'
 
   jquery: 'jquery/jquery'
   jquery_ujs: 'jquery_ujs'
+  turbolinks: 'turbolinks'
 
 shim:
 
   jquery_ujs:
     deps: ['jquery']
+
+modules:
+  - name: 'application'
+wrap: true
