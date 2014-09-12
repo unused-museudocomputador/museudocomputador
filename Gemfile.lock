@@ -120,7 +120,7 @@ GEM
     rake (10.3.2)
     rdoc (4.1.2)
       json (~> 1.4)
-    requirejs-rails (0.9.3)
+    requirejs-rails (0.9.4)
       railties (>= 3.1.1)
     sass (3.2.19)
     sass-rails (4.0.3)
@@ -186,7 +186,7 @@ DEPENDENCIES
   rails-assets-retreat-hell
   rails-assets-scrollReveal.js
   rails_12factor
-  requirejs-rails (= 0.9.3)
+  requirejs-rails (= 0.9.4)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   simple_form
