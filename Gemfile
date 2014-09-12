@@ -78,7 +78,8 @@ gem 'devise'
 gem 'newrelic_rpm'
 
 # RequireJS Rails
-gem 'requirejs-rails', '0.9.4'
+gem 'requirejs-rails', '0.9.3'
+# gem 'requirejs-rails', github: 'agtlucas/requirejs-rails'
 
 
 # Only for dev and test
