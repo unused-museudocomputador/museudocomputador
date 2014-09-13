@@ -10,8 +10,6 @@ paths:
 
 shim:
 
-  jquery:
-    exports: 'jquery'
   jquery_ujs:
     deps: ['jquery']
 
