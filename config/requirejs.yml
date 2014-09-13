@@ -5,14 +5,10 @@ paths:
   application: 'application'
 
   jquery: 'jquery/jquery'
-  'jquery-adapter': 'jquery-adapter'
   jquery_ujs: 'jquery_ujs'
   turbolinks: 'turbolinks'
 
 shim:
-
-  'jquery-adapter':
-    exports: 'jquery'
 
   jquery:
     exports: 'jquery'
