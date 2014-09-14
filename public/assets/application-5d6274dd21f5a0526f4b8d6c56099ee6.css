@@ -1,0 +1,298 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+ */
+/* line 2, /Users/AgtLucas/.rvm/gems/ruby-2.1.2/gems/neat-1.5.1/app/assets/stylesheets/grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*------------------------------------*\
+  Base styles
+\*------------------------------------*/
+/*------------------------------------*\
+  Colors
+\*------------------------------------*/
+/*------------------------------------*\
+  Helpers
+\*------------------------------------*/
+/* line 8, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_helpers.scss */
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+/* line 12, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_helpers.scss */
+.cf:after {
+  clear: both;
+}
+
+/* line 18, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_helpers.scss */
+.flexboxtweener,
+.flexboxtweener > body {
+  height: 100%;
+}
+
+/* line 10, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+html {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  overflow-y: scroll;
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+@media screen and (min-width: 81em) and (min-height: 51em) {
+  /* line 15, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+  html {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 50em) {
+  /* line 15, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+  html {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 30em) and (max-width: 50em) {
+  /* line 15, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+  html {
+    font-size: 0.875rem;
+  }
+}
+@media screen and (max-width: 30em) {
+  /* line 15, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+  html {
+    font-size: 0.875rem;
+  }
+}
+
+/* line 43, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+body {
+  background: #d7d4c7;
+  color: #2b2b2b;
+  min-height: 100vh;
+  /**
+  * Making the <body> element behave like a flexbox container:
+  */
+  /* Ye Olde Flexbox for Webkit */
+  display: -webkit-box;
+  /* Tweener flexbox */
+  display: -ms-flexbox;
+  /* Prefixed "new flexbox" */
+  display: -webkit-flex;
+  /* unprefixed standard "new flexbox" version */
+  display: flex;
+  /**
+  * Making the things inside <body> line up vertically
+  */
+  /* Your grandparents flexbox for Webkit */
+  -webkit-box-orient: vertical;
+  /* Prefixed new syntax: */
+  -webkit-flex-direction: column;
+  /* Same syntax for weird IE tweener */
+  -ms-flex-direction: column;
+  /* unprefixed new syntax */
+  flex-direction: column;
+}
+
+/* line 49, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+/* line 55, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 61, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 66, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* line 70, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+::-webkit-scrollbar-track {
+  background: #d7d4c7;
+}
+
+/* line 74, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+::-webkit-scrollbar-thumb {
+  background: #6c7479;
+}
+
+/* line 78, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+::-moz-selection {
+  background: #6c7479;
+  color: #d7d4c7;
+}
+
+/* line 82, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+::selection {
+  background: #6c7479;
+  color: #d7d4c7;
+}
+
+/* line 87, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+.wrapper {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.25em;
+}
+/* line 15, /Users/AgtLucas/.rvm/gems/ruby-2.1.2/gems/bourbon-3.2.3/app/assets/stylesheets/addons/_clearfix.scss */
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (min-width: 30em) and (max-width: 50em) {
+  /* line 87, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+  .wrapper {
+    padding: 0 1.875em;
+  }
+}
+@media screen and (max-width: 30em) {
+  /* line 87, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+  .wrapper {
+    padding: 0 1.875em;
+  }
+}
+
+/* line 99, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+.main-footer,
+.main-header {
+  background: #6c7479;
+  padding: 0.625em 0;
+}
+/* line 102, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+.main-footer a,
+.main-header a {
+  color: #f9f9f9;
+}
+
+@media screen and (min-width: 50em) {
+  /* line 107, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+  .site-logo {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* line 116, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+.site-logo__img {
+  fill: #2b2b2b;
+}
+@media screen and (min-width: 50em) {
+  /* line 116, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+  .site-logo__img {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 30em) and (max-width: 50em) {
+  /* line 116, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+  .site-logo__img {
+    width: 70px;
+    height: 70px;
+  }
+}
+@media screen and (max-width: 30em) {
+  /* line 116, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+  .site-logo__img {
+    position: relative;
+    top: 2px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* line 134, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+.site-logo__text {
+  text-transform: uppercase;
+}
+@media screen and (max-width: 30em) {
+  /* line 134, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+  .site-logo__text {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    left: 0;
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  /* line 147, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+  .site-nav {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 30em) {
+  /* line 147, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+  .site-nav {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    left: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -o-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  /* line 164, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+  .site-nav__item {
+    display: inline-block;
+    margin: 5px 10px;
+  }
+}
+
+/* line 173, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+.site-nav__link {
+  text-transform: uppercase;
+}
+
+/* line 177, /Users/AgtLucas/Sites/museum/app/assets/stylesheets/_base.scss.erb */
+main {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  -webkit-flex: 1 0 auto;
+}

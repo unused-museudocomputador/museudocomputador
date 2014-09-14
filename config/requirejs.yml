@@ -4,7 +4,7 @@ paths:
   delta: 'delta'
   application: 'application'
 
-  jquery: 'jquery/jquery'
+  jquery: 'jquery'
   jquery_ujs: 'jquery_ujs'
   turbolinks: 'turbolinks'
 

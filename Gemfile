@@ -44,7 +44,7 @@ gem 'unicorn'
 # Neat by Bourbon
 gem 'neat'
 # Normalize
-gem 'rails-assets-normalize.css'
+# gem 'rails-assets-normalize.css'
 
 # Retreat Hell!
 gem 'rails-assets-retreat-hell'

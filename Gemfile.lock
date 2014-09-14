@@ -100,7 +100,6 @@ GEM
     rails-assets-jquery (2.1.1)
     rails-assets-jquery-validation (1.13.0)
       rails-assets-jquery (>= 1.6.4)
-    rails-assets-normalize.css (3.0.1)
     rails-assets-nprogress (0.1.6)
     rails-assets-retreat-hell (1.0.1)
     rails-assets-scrollReveal.js (0.1.3)
@@ -176,7 +175,6 @@ DEPENDENCIES
   rack-timeout
   rails (= 4.1.6)
   rails-assets-jquery-validation
-  rails-assets-normalize.css
   rails-assets-nprogress
   rails-assets-retreat-hell
   rails-assets-scrollReveal.js
