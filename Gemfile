@@ -70,7 +70,7 @@ gem 'mail_form'
 gem 'simple_form'
 
 # Devise
-gem 'devise'
+# gem 'devise'
 
 # New Relic
 gem 'newrelic_rpm'
