@@ -96,8 +96,15 @@ img {
 
 .main-footer,
 .main-header {
-  background: $apple-grey;
   padding: em(10) 0;
+}
+
+.main-header {
+
+}
+
+.main-footer {
+  background: $apple-grey;
   a {
     color: $apple-white;
   }
@@ -106,8 +113,7 @@ img {
 .site-logo {
 
   @include media($desktop) {
-    display: block;
-    text-align: center;
+    float: left;
   }
 
 }
@@ -133,7 +139,9 @@ img {
 .site-nav {
 
   @include media($desktop) {
-    text-align: center;
+    float: right;
+    vertical-align: middle;
+    margin-top: em(35);
   }
 
   @include media($mobile) {
