@@ -118,6 +118,23 @@ img {
   }
 }
 
+.site-logo__text {
+  font-weight: 600;
+  text-transform: uppercase;
+  float: right;
+  margin: 25px 0 0 10px;
+
+  @include media($tablet) {
+    display: none;
+    visibility: hidden;
+  }
+
+  @include media($mobile) {
+    display: none;
+    visibility: hidden;
+  }
+}
+
 .site-nav {
 
   @include media($desktop) {
