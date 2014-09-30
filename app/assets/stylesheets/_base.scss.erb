@@ -49,6 +49,7 @@ body {
 a {
   text-decoration: none;
   color: $cm-ablue;
+  @include transition(all 0.2s ease-in-out);
 }
 
 ol,
@@ -86,10 +87,18 @@ img {
 .main-footer {
   background: $cm-ablue;
   color: $cm-agrey;
-  padding: em(60) 0;
+  padding: em(60) 0 em(10) 0;
   a {
     color: $cm-agrey;
+    &:hover {
+      color: $cm-blue;
+    }
   }
+}
+
+.main-footer__copyright {
+  text-align: center;
+  display: block;
 }
 
 .site-logo {
