@@ -46,3 +46,10 @@
   /* unprefixed new syntax */
   flex-direction: column;
 }
+
+.btn {
+  padding: em(10) em(20);
+  display: inline-block;
+  border: 0;
+  @include transition(all 0.2s ease-in-out);
+}
