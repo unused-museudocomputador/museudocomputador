@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   get 'acervo', to: 'collection#index'
 
-  get 'contato', to: 'contact#index'
+  get 'contato', to: 'contacts#index'
 
   get 'linha-do-tempo', to: 'timeline#index'
 
