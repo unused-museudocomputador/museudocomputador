@@ -1,12 +1,18 @@
 Rails.application.routes.draw do
 
+  get 'contacts/new'
+
+  get 'contacts/create'
+
+  resources 'contacts', only: [:new, :create]
+
+  get 'contato', to: 'contacts#index'
+
   root 'home#index'
 
   get 'sobre', to: 'about#index'
 
   get 'acervo', to: 'collection#index'
-
-  get 'contato', to: 'contacts#index'
 
   get 'linha-do-tempo', to: 'timeline#index'
 
