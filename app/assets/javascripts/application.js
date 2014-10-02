@@ -11,8 +11,8 @@
 // about supported directives.
 //
 //= require jquery
-//= require turbolinks
 //= require jquery_ujs
+//= require turbolinks
 //= require scrollReveal.js
 //= require jquery-validation
 //= require nprogress
