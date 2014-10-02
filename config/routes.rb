@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   get 'contacts/create'
 
-  resources 'contacts', only: [:new, :create]
+  resources 'contacts', only: [:new, :create], :path => 'contato'
 
   get 'contato', to: 'contacts#index'
 
