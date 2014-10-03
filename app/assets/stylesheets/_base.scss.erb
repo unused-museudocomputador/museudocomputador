@@ -226,6 +226,13 @@ img {
 
 .site-nav__link {
   text-transform: uppercase;
+  font-weight: 600;
+
+  @include media($desktop-x) {
+    &:hover {
+      color: $cm-ared;
+    }
+  }
 }
 
 .main-content {
