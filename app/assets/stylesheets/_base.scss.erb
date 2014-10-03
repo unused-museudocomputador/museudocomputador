@@ -125,6 +125,22 @@ img {
     width: 50px;
     height: 50px;
   }
+
+  &:hover {
+    .cx-1,
+    .cx-2,
+    .cx-3,
+    .cx-4 {
+      fill: $rebecca;
+    }
+    .site-logo__p1,
+    .site-logo__p2,
+    .site-logo__p3,
+    .site-logo__p4,
+    .site-logo__p5 {
+      fill: $cm-ared;
+    }
+  }
 }
 
 .site-logo__text {
@@ -142,6 +158,42 @@ img {
     display: none;
     visibility: hidden;
   }
+}
+
+.cx-1 {
+  @include transition(all 0.2s ease-in-out);
+}
+
+.cx-2 {
+  @include transition(all 0.3s ease-in-out);
+}
+
+.cx-3 {
+  @include transition(all 0.4s ease-in-out);
+}
+
+.cx-4 {
+  @include transition(all 0.5s ease-in-out);
+}
+
+.site-logo__p1 {
+  @include transition(all 0.2s ease-in-out);
+}
+
+.site-logo__p2 {
+  @include transition(all 0.4s ease-in-out);
+}
+
+.site-logo__p4 {
+  @include transition(all 0.6s ease-in-out);
+}
+
+.site-logo__p3 {
+  @include transition(all 0.8s ease-in-out);
+}
+
+.site-logo__p5 {
+  @include transition(all 1s ease-in-out);
 }
 
 .site-nav {
