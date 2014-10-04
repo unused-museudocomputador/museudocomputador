@@ -9,9 +9,17 @@
   background-image: url(<%= asset_path 'm1/intel.jpg' %>);
   background-size: cover;
   width: 100%;
+  background-attachment: fixed;
+
+  @include media($mobile) {
+    height: 300px;
+  }
+
+  @include media($tablet) {
+    height: 300px;
+  }
 
   @include media($desktop-x) {
-    background-attachment: fixed;
     height: 500px;
   }
 }

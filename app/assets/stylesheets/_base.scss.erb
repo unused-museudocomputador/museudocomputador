@@ -232,19 +232,13 @@ img {
 
 .site-nav {
 
+  @include media($mobile) {
+  }
+
   @include media($desktop-x) {
     float: right;
     vertical-align: middle;
     margin-top: em(35);
-  }
-
-  @include media($mobile) {
-    position: absolute;
-    width: 70%;
-    height: 100%;
-    left: 0;
-    @include transform(translate3d(-100%, 0, 0));
-    @include backface-visibility(hidden);
   }
 
 }
