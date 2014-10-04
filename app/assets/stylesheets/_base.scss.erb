@@ -198,6 +198,7 @@ img {
 
 .nav-toggle {
   position: absolute;
+  cursor: pointer;
   top: 20px;
   right: 0;
   padding: em(20) em(70) em(20) 0;
@@ -220,50 +221,6 @@ img {
     &:before {
       top: -10px;
     }
-  }
-
-  @include media($mobile) {
-    // span {
-    //   position: absolute;
-    //   cursor: pointer;
-    //   display: block;
-    //   content: '';
-    //   width: 35px;
-    //   height: 5px;
-    //   background: $cm-ablue;
-    //   &:after,
-    //   &:before {
-    //     @extend span;
-    //   }
-    //   &:after {
-    //     bottom: -10px;
-    //   }
-    //   &:before {
-    //     top: -10px;
-    //   }
-    // }
-  }
-
-  @include media($tablet) {
-    // span {
-    //   position: absolute;
-    //   cursor: pointer;
-    //   display: block;
-    //   content: '';
-    //   width: 35px;
-    //   height: 5px;
-    //   background: $cm-ablue;
-    //   &:after,
-    //   &:before {
-    //     @extend span;
-    //   }
-    //   &:after {
-    //     bottom: -10px;
-    //   }
-    //   &:before {
-    //     top: -10px;
-    //   }
-    // }
   }
 
   @include media($desktop-x) {
@@ -303,9 +260,9 @@ img {
 
 .site-nav__link {
   text-transform: uppercase;
-  font-weight: 800;
 
   @include media($desktop-x) {
+    font-weight: 800;
     &:hover {
       color: $cm-ared;
     }
