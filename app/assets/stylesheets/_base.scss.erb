@@ -196,9 +196,86 @@ img {
   @include transition(all 1s ease-in-out);
 }
 
+.nav-toggle {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  padding: em(20) em(70) em(20) 0;
+
+  span {
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    content: '';
+    width: 35px;
+    height: 5px;
+    background: $cm-ablue;
+    &:after,
+    &:before {
+      @extend span;
+    }
+    &:after {
+      bottom: -10px;
+    }
+    &:before {
+      top: -10px;
+    }
+  }
+
+  @include media($mobile) {
+    // span {
+    //   position: absolute;
+    //   cursor: pointer;
+    //   display: block;
+    //   content: '';
+    //   width: 35px;
+    //   height: 5px;
+    //   background: $cm-ablue;
+    //   &:after,
+    //   &:before {
+    //     @extend span;
+    //   }
+    //   &:after {
+    //     bottom: -10px;
+    //   }
+    //   &:before {
+    //     top: -10px;
+    //   }
+    // }
+  }
+
+  @include media($tablet) {
+    // span {
+    //   position: absolute;
+    //   cursor: pointer;
+    //   display: block;
+    //   content: '';
+    //   width: 35px;
+    //   height: 5px;
+    //   background: $cm-ablue;
+    //   &:after,
+    //   &:before {
+    //     @extend span;
+    //   }
+    //   &:after {
+    //     bottom: -10px;
+    //   }
+    //   &:before {
+    //     top: -10px;
+    //   }
+    // }
+  }
+
+  @include media($desktop-x) {
+    display: none;
+    visibility: hidden;
+  }
+
+}
+
 .site-nav {
 
-  @include media($desktop) {
+  @include media($desktop-x) {
     float: right;
     vertical-align: middle;
     margin-top: em(35);

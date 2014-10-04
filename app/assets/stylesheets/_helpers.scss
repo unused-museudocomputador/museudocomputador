@@ -18,6 +18,11 @@
   height: 100%;
 }
 
+.is-hidden {
+  display: none;
+  visibility: hidden;
+}
+
 @mixin flex-body {
   min-height: 100vh;
   /**
