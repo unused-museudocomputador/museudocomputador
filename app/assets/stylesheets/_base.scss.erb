@@ -233,11 +233,11 @@ img {
 .site-nav {
 
   @include media($mobile) {
-    padding: em(30) 0;
+    padding: em(20) 0;
   }
 
   @include media($tablet) {
-    padding: em(30) 0;
+    padding: em(20) 0;
   }
 
   @include media($desktop-x) {
@@ -257,6 +257,7 @@ img {
 
   @include media($tablet) {
     text-align: center;
+    margin: em(30) 0;
   }
 
   @include media($desktop) {
@@ -268,9 +269,17 @@ img {
 
 .site-nav__link {
   text-transform: uppercase;
+  font-weight: 800;
+
+  @include media($mobile) {
+
+  }
+
+  @include media($tablet) {
+
+  }
 
   @include media($desktop-x) {
-    font-weight: 800;
     &:hover {
       color: $cm-ared;
     }
