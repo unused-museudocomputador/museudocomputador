@@ -233,6 +233,11 @@ img {
 .site-nav {
 
   @include media($mobile) {
+    padding: em(30) 0;
+  }
+
+  @include media($tablet) {
+    padding: em(30) 0;
   }
 
   @include media($desktop-x) {
@@ -244,6 +249,15 @@ img {
 }
 
 .site-nav__item {
+
+  @include media($mobile) {
+    text-align: center;
+    margin: em(20) 0;
+  }
+
+  @include media($tablet) {
+    text-align: center;
+  }
 
   @include media($desktop) {
     display: inline-block;
