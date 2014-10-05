@@ -199,7 +199,6 @@ img {
 .nav-toggle {
   position: absolute;
   cursor: pointer;
-  top: 20px;
   right: 0;
   padding: em(20) em(70) em(20) 0;
 
@@ -223,6 +222,14 @@ img {
     }
   }
 
+  @include media($mobile) {
+    top: 20px;
+  }
+
+  @include media($tablet) {
+    top: 30px;
+  }
+
   @include media($desktop-x) {
     display: none;
     visibility: hidden;
@@ -234,10 +241,12 @@ img {
 
   @include media($mobile) {
     padding: em(20) 0;
+    display: none;
   }
 
   @include media($tablet) {
     padding: em(20) 0;
+    display: none;
   }
 
   @include media($desktop-x) {

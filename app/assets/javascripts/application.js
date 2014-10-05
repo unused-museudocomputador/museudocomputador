@@ -16,5 +16,6 @@
 //= require scrollReveal.js
 //= require jquery-validation
 //= require nprogress
+//= require _blackbriar
 //= require turbolinks
 //= require_tree .
