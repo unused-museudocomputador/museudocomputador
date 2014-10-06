@@ -19,8 +19,8 @@ textarea {
   }
 
   &.error {
-    border: 2px solid $cm-ared;
-    color: $cm-ared;
+    border: 2px solid lighten($cm-ared, 10);
+    color: lighten($cm-ared, 10);
   }
 }
 
