@@ -61,8 +61,7 @@
 
 button,
 .btn {
-  padding: em(10) em(20);
+  padding: em(10) em(25);
   display: inline-block;
-  border: 0;
   @include transition(all 0.2s ease-in-out);
 }

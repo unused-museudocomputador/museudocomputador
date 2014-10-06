@@ -29,9 +29,16 @@ textarea {
   height: em(190)
 }
 
+label {
+  color: $cm-ared;
+  display: block;
+  font-size: em(14);
+}
+
 .contact-area,
 .contact-sidebar {
   position: relative;
+  @extend .cf;
 
   @include media($mobile) {
     @include span-columns(4);
@@ -45,6 +52,12 @@ textarea {
     @include span-columns(6);
   }
 
+}
+
+.contact-area__errors {
+  position: relative;
+  display: inline-block;
+  width: 70%;
 }
 
 .btn-contact__send {
