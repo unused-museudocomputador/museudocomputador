@@ -19,6 +19,10 @@ var Blackbriar = (function (window, document, undefined) {
     this.toggleMenu();
   };
 
+  /**
+   * Toggle Menu when tablet && mobile
+   * When click on menu button, show/hide the navigation menu
+   */
   Blackbriar.toggleMenu = function () {
 
     $(document).on('click', '.nav-toggle', function () {
