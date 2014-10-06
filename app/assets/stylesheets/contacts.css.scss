@@ -1,3 +1,46 @@
-// Place all the styles related to the contacts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/*------------------------------------*\
+  Contact Styles
+\*------------------------------------*/
+
+input,
+textarea {
+  background: $cm-ablue;
+  color: $cm-agrey;
+  border: 2px solid $cm-ablue;
+  outline: none;
+  width: 100%;
+  margin-top: em(10);
+  padding: em(10) em(15);
+
+  &:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px $cm-ablue inset;
+    -webkit-text-fill-color: $cm-white;
+  }
+
+  &.error {
+    border: 2px solid $cm-ared;
+    color: $cm-ared;
+  }
+}
+
+textarea {
+  resize: none;
+  height: em(190)
+}
+
+.contact-area,
+.contact-sidebar {
+
+  @include media($mobile) {
+    @include span-columns(4);
+  }
+
+  @include media($tablet) {
+    @include span-columns(8);
+  }
+
+  @include media($desktop-x) {
+    @include span-columns(6);
+  }
+
+}
