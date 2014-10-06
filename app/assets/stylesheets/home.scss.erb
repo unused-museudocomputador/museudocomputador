@@ -25,6 +25,10 @@
 }
 
 .welcome-block__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  @include transform(translate(-50%, -50%));
   margin: 0;
   color: $cm-agrey;
   span {
@@ -32,9 +36,12 @@
     font-style: italic;
   }
 
+  @include media($mobile) {
+
+  }
+
   @include media($desktop-x) {
-    position: relative;
-    top: em(60);
+    width: 60%;
     font-size: em(40);
     font-weight: 600;
   }
