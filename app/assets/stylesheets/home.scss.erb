@@ -31,6 +31,7 @@
   @include transform(translate(-50%, -50%));
   margin: 0;
   color: $cm-agrey;
+  font-weight: 800;
   span {
     display: block;
     font-style: italic;
@@ -39,13 +40,16 @@
   @include media($mobile) {
     width: 75%;
     font-size: em(22);
-    font-weight: 800;
+  }
+
+  @include media($tablet) {
+    width: 85%;
+    font-size: em(35);
   }
 
   @include media($desktop-x) {
     width: 75%;
     font-size: em(40);
-    font-weight: 800;
   }
 }
 
