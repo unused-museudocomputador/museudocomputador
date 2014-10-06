@@ -11,6 +11,7 @@ textarea {
   width: 100%;
   margin-top: em(10);
   padding: em(10) em(15);
+  letter-spacing: 1.5px;
 
   &:-webkit-autofill {
     box-shadow: 0 0 0px 1000px $cm-ablue inset;
@@ -30,6 +31,7 @@ textarea {
 
 .contact-area,
 .contact-sidebar {
+  position: relative;
 
   @include media($mobile) {
     @include span-columns(4);
@@ -43,4 +45,32 @@ textarea {
     @include span-columns(6);
   }
 
+}
+
+.btn-contact__send {
+  background: $cm-ablue;
+  color: $cm-agrey;
+  border: 2px solid $cm-ablue;
+  text-transform: uppercase;
+  margin: em(10) 0;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  &:hover {
+    background: $cm-agrey;
+    color: $cm-ablue;
+    border: 2px solid $cm-ablue;
+  }
+
+  @include media($mobile) {
+    @include span-columns(4);
+  }
+
+  @include media($tablet) {
+    @include span-columns(8);
+  }
+
+  @include media($desktop-x) {
+    position: absolute;
+    right: 0;
+  }
 }
