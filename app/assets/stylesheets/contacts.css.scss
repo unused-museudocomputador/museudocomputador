@@ -87,3 +87,24 @@ label {
     right: 0;
   }
 }
+
+.contact-sidebar {
+  position: relative;
+}
+
+.contact-sidebar__content {
+
+  @include media($desktop-x) {
+    margin-top: em(80);
+  }
+
+  p {
+
+    @include media($desktop-x) {
+      margin-left: em(55);
+      font-size: em(30);
+    }
+
+  }
+
+}
