@@ -6,7 +6,7 @@ class Contact < MailForm::Base
   def headers
     {
       :subject => "Contato de #{name} (#{email}) no site do Museu do Computador",
-      :to => "contato@museudocomputador.net",
+      :to => "lucas.silva@catolicasc.org.br",
       :from => %("#{name}" <#{email}>),
       :'reply-to' => "#{email}"
     }
