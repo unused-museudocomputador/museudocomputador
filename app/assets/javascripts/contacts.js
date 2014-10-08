@@ -35,7 +35,7 @@ var contact = (function (window, document, undefined) {
         NProgress.start();
       }
     }).on('ajax:success', function () {
-      NProgress.gone();
+      NProgress.done();
     }).on('ajax:aborted:required', function () {
     }).on('ajax:error', function (evt, xhr, status, error) {
       alert('Ocorreu um erro no servidor, por favor, recarregue a página e tente novamente.');
