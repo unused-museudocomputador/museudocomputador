@@ -10,6 +10,8 @@
   <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
   <title>Museu do Computador</title>
 
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+
   <script type="text/javascript">
     WebFontConfig = {
       google: { families: [ 'Open+Sans:400italic,300,400,600,800:latin' ] }
@@ -24,7 +26,6 @@
       s.parentNode.insertBefore(wf, s);
     })();
   </script>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
