@@ -75,7 +75,7 @@ var contact = (function (window, document, undefined) {
         }
       },
       success: function (element) {
-        element.text('';)
+        element.text('');
       }
     });
   };
