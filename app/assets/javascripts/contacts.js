@@ -2,7 +2,7 @@
  * Contact scripts
  * Form validation and other stuff
  */
-var contact = (function (window, document, undefined) {
+var contact = (function (window, document, Blackbriar, undefined) {
 
   'use strict';
 
@@ -85,4 +85,4 @@ var contact = (function (window, document, undefined) {
   return contact.init();
 
 
-})(window, document);
+})(window, document, Blackbriar);

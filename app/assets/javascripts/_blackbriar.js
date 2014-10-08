@@ -17,6 +17,9 @@ var Blackbriar = (function (window, document, undefined) {
    */
   Blackbriar.init = function () {
     this.toggleMenu();
+    this.isMobile();
+
+    return Blackbriar;
   };
 
   /**
@@ -24,7 +27,6 @@ var Blackbriar = (function (window, document, undefined) {
    * When click on menu button, show/hide the navigation menu
    */
   Blackbriar.toggleMenu = function () {
-
     $(document).on('click', '.nav-toggle', function () {
       $('.site-nav').slideToggle();
     });
@@ -37,7 +39,7 @@ var Blackbriar = (function (window, document, undefined) {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
       return true;
     } else {
-      return false
+      return false;
     }
   };
 
