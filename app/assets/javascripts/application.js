@@ -16,4 +16,3 @@
 //= require jquery-validation
 //= require nprogress
 //= require _blackbriar
-//= require_tree .
