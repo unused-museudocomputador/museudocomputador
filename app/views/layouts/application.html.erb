@@ -14,7 +14,7 @@
   <%= raw Rails.application.assets['retreat-hell.css'] %>
   </style>
 
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
 
   <script type="text/javascript">
     WebFontConfig = {
@@ -30,7 +30,6 @@
       s.parentNode.insertBefore(wf, s);
     })();
   </script>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
@@ -67,5 +66,6 @@
 
 <%= render 'layouts/footer' %>
 
+<%= javascript_include_tag 'application' %>
 </body>
 </html>
