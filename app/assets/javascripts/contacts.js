@@ -25,6 +25,7 @@ var contact = (function (window, document, undefined) {
       var name = $('#contact-name');
       var email = $('#contact-email');
       var msg = $('#contact-message');
+      var msgSuccess = $('.contact-area__success');
 
     this.validateForm(form);
 
@@ -36,6 +37,7 @@ var contact = (function (window, document, undefined) {
       }
     }).on('ajax:success', function () {
       NProgress.done();
+      $(msgSuccess).show();
     }).on('ajax:aborted:required', function () {
     }).on('ajax:error', function (evt, xhr, status, error) {
       alert('Ocorreu um erro no servidor, por favor, recarregue a página e tente novamente.');

@@ -54,6 +54,17 @@ label {
 
 }
 
+.contact-area__success {
+  display: none;
+  position: relative;
+  width: 70%;
+  p {
+    font-size: em(20);
+    font-weight: 800;
+    color: $cm-blue;
+  }
+}
+
 .contact-area__errors {
   position: relative;
   display: inline-block;
