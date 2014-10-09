@@ -95,6 +95,26 @@ img {
   }
 }
 
+.footer-alpha__content {
+  padding: em(30) 0;
+}
+
+.footer-section__info {
+
+  @include media($mobile) {
+    @include span-columns(4);
+  }
+
+  @include media($tablet) {
+    @include span-columns(8);
+  }
+
+  @include media($desktop-x) {
+    @include span-columns(4);
+    @include omega(3n);
+  }
+}
+
 .main-footer__copyright {
   text-align: center;
   display: block;
