@@ -2,13 +2,11 @@
   Home styles
 \*------------------------------------*/
 
-@import 'img';
-
 //= depend_on_asset "m1/intel.jpg"
 
 .welcome-block {
   position: relative;
-  background-image: url($intel);
+  background-image: url(<%= asset_path 'm1/intel.jpg' %>);
   background-size: cover;
   width: 100%;
   background-attachment: fixed;
