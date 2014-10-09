@@ -17,6 +17,7 @@ var Blackbriar = (function (window, document, undefined) {
    */
   Blackbriar.init = function () {
     this.toggleMenu();
+    this.onScrollAnimation();
     this.contactSubmit();
   };
 
@@ -28,6 +29,19 @@ var Blackbriar = (function (window, document, undefined) {
     $(document).on('click', '.nav-toggle', function () {
       $('.site-nav').slideToggle();
     });
+  };
+
+  /**
+   * Animate some elements on scroll
+   * Using: https://github.com/julianlloyd/scrollReveal.js
+   */
+  Blackbriar.onScrollAnimation = function () {
+
+    // Add ScrollReveal on Desktop only!
+    if (!this.isMobile()) {
+      window.scrollReveal = new scrollReveal({reset: true});
+    }
+
   };
 
   /**
@@ -60,7 +74,7 @@ var Blackbriar = (function (window, document, undefined) {
 
   };
 
-  /*
+  /**
    * Validate contact form
    * Using: https://github.com/jzaefferer/jquery-validation
    */
