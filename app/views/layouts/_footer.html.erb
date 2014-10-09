@@ -6,6 +6,7 @@
         <nav class="footer-nav" id="footer-nav" role="navigation">
           <div class="footer-nav__wrapper">
             <ul class="footer_nav__list">
+              <li class="footer-nav__item"><a href="/" class="footer-nav__link">Home</a></li>
               <li class="footer-nav__item"><a href="/sobre" class="footer-nav__link">Sobre</a></li>
               <li class="footer-nav__item"><a href="/acervo" class="footer-nav__link">Acervo</a></li>
               <li class="footer-nav__item"><a href="/linha-do-tempo" class="footer-nav__link">Linha do Tempo</a></li>
@@ -16,11 +17,27 @@
       </section>
 
       <section class="footer-section__info">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, rerum, cupiditate suscipit quae doloremque officiis consectetur a distinctio, eius nemo dicta aut sint aliquam eaque nobis quasi error, deserunt mollitia.</p>
+        <nav class="footer-nav__sub">
+          <div class="footer-nav__wrapper">
+            <ul class="footer-nav__list">
+              <li class="footer-nav__item"><a href="#" class="footer-nav__link">GitHub</a></li>
+              <li class="footer-nav__item"><a href="#" class="footer-nav__link">Google+</a></li>
+              <li class="footer-nav__item"><a href="#" class="footer-nav__link">Twitter</a></li>
+              <li class="footer-nav__item"><a href="#" class="footer-nav__link">Facebook</a></li>
+            </ul>
+          </div>
+        </nav>
       </section>
 
       <section class="footer-section__info">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis fugiat pariatur, maiores temporibus nobis iste voluptate! Velit repudiandae odit ullam, doloribus. Neque quae ullam mollitia iure cumque rem ea maiores.</p>
+        <h3 class="footer-section__title">Apoio</h3>
+        <ul class="sponsor-list">
+          <li class="sponsor-list__item">
+            <a href="http://www.catolicasc.org.br/" target="_blank">
+              <%= image_tag "logos/catolicasc.png", :class => 'sponsor-list__img sponsor-catolicasc' %>
+            </a>
+          </li>
+        </ul>
       </section>
     </div>
 
