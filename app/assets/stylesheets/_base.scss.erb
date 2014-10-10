@@ -137,6 +137,14 @@ img {
   display: block;
 }
 
+.sponsor-list__img {
+  @include media($desktop-x) {
+    &:hover {
+      @include filter(invert(30%));
+    }
+  }
+}
+
 .site-logo {
 
   @include media($desktop) {
