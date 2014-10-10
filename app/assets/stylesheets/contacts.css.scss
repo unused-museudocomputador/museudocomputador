@@ -35,6 +35,12 @@ label {
   font-size: em(14);
 }
 
+.contact-wrapper__inner {
+  @extend .cf;
+  position: relative;
+  min-height: em(500);
+}
+
 .contact-area,
 .contact-sidebar {
   position: relative;
