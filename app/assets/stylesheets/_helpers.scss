@@ -2,17 +2,6 @@
   Helpers
 \*------------------------------------*/
 
-.cf {
-  &:before,
-  &:after {
-    content: " ";
-    display: table;
-  }
-  &:after {
-    clear: both;
-  }
-}
-
 .flexboxtweener,
 .flexboxtweener>body {
   height: 100%;

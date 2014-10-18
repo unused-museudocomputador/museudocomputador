@@ -36,7 +36,7 @@ label {
 }
 
 .contact-wrapper__inner {
-  @extend .cf;
+  @include clearfix;
   position: relative;
   min-height: em(500);
 }
@@ -44,7 +44,7 @@ label {
 .contact-area,
 .contact-sidebar {
   position: relative;
-  @extend .cf;
+  @include clearfix;
 
   @include media($mobile) {
     @include span-columns(4);
