@@ -12,6 +12,8 @@ Rails.application.routes.draw do
 
   get 'sobre', to: 'about#index'
 
+  get 'historia', to: 'history#index'
+
   get 'acervo', to: 'collection#index'
 
   get 'linha-do-tempo', to: 'timeline#index'
