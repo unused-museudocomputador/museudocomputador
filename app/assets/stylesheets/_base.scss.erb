@@ -80,7 +80,12 @@ img {
 }
 
 .main-header {
-
+  .wrapper {
+    @include media($desktop-x) {
+      border-bottom: 1px solid lighten($cm-ablue, 70);
+      padding-bottom: em(30);
+    }
+  }
 }
 
 .main-footer {
@@ -358,4 +363,8 @@ img {
 
 .area-title {
   text-transform: uppercase;
+}
+
+.content-area {
+  padding: em(16) 0;
 }

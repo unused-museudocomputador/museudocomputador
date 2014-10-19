@@ -1,24 +1,26 @@
 <div data-scroll-reveal class="wrapper">
 
   <div class="contact-wrapper__inner">
-    <section class="contact-area">
-      <h1 class="area-title contact-area__title">Contato</h1>
+    <section class="content-area">
+      <div class="contact-area">
+        <h1 class="area-title contact-area__title">Contato</h1>
 
-      <%= render 'contacts/new' %>
+        <%= render 'contacts/new' %>
 
-      <div class="contact-area__success">
-        <p>Mensagem enviada com sucesso!</p>
+        <div class="contact-area__success">
+          <p>Mensagem enviada com sucesso!</p>
+        </div>
+        <div class="contact-area__errors"></div>
       </div>
-      <div class="contact-area__errors"></div>
+
+      <aside class="contact-sidebar">
+
+        <div class="contact-sidebar__content">
+          <p>Tens alguma dúvida? Entre em contato conosco através do formulário.</p>
+        </div>
+
+      </aside>
     </section>
-
-    <aside class="contact-sidebar">
-
-      <div class="contact-sidebar__content">
-        <p>Tens alguma dúvida? Entre em contato conosco através do formulário.</p>
-      </div>
-
-    </aside>
   </div>
 
 </div>
