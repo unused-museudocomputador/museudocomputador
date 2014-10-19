@@ -64,13 +64,13 @@ img {
 }
 
 blockquote {
-  // border-left: 10px solid $cm-blue;
+  border-left: 10px solid $cm-ared;
   padding: 0 em(20);
   margin-top: em(40);
   margin-right: 0;
   quotes: "\201C""\201D""\2018""\2019";
   &:before {
-    color: $cm-blue;
+    color: $cm-ared;
     content: open-quote;
     font-size: 4em;
     line-height: 0.1em;
@@ -79,6 +79,15 @@ blockquote {
   }
   p {
     display: inline;
+  }
+}
+
+.go-to__catolicasc {
+  color: $cm-ablue;
+  font-weight: 800;
+  &:hover {
+    color: $cm-ared;
+    border-bottom: 1px dotted $cm-ared;
   }
 }
 
