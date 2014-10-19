@@ -64,21 +64,20 @@ img {
 }
 
 blockquote {
-  border-left: 10px solid $cm-ared;
-  padding: 0 em(20);
-  margin-top: em(40);
-  margin-right: 0;
-  quotes: "\201C""\201D""\2018""\2019";
-  &:before {
-    color: $cm-ared;
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
+  @include media($desktop-x) {
+    border-left: 10px solid $cm-ared;
+    padding: 0 em(20);
+    margin-top: em(80);
+    margin-right: 0;
+    margin-bottom: em(80);
   }
-  p {
-    display: inline;
+}
+
+.quote-list {
+  margin: 20px 0 20px 20px;
+  li {
+    list-style: square;
+    margin: 10px 0;
   }
 }
 
