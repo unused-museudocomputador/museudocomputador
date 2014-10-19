@@ -63,6 +63,25 @@ img {
   height: auto;
 }
 
+blockquote {
+  // border-left: 10px solid $cm-blue;
+  padding: 0 em(20);
+  margin-top: em(40);
+  margin-right: 0;
+  quotes: "\201C""\201D""\2018""\2019";
+  &:before {
+    color: $cm-blue;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  p {
+    display: inline;
+  }
+}
+
 .wrapper {
   @include outer-container;
   padding: 0 em(20);
