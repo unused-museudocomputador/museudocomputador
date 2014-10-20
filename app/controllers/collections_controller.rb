@@ -10,7 +10,7 @@ class CollectionsController < ApplicationController
   end
 
   def show
-    @collection = Collection.find(params[:id])
+    @collection = Collection.friendly.find(params[:id])
     respond_to do |format|
       format.html
       format.json { render :json => @collection }

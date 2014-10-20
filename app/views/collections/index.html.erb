@@ -8,6 +8,8 @@
       <% @collections.each do |collection| %>
         <p><%= link_to collection.title, collection %></p>
         <p><%= collection.description %></p>
+        <p><%= collection.body %></p>
+        <!-- <img src="/assets/<%= collection.img %>"> -->
       <% end %>
 
     </section>
