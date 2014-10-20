@@ -1,0 +1,17 @@
+<div class="wrapper">
+
+  <div class="collection-wrapper__inner">
+
+    <section class="content-area collection-area">
+      <h1 class="area-title collection-area__title">Acervo</h1>
+
+      <% @collections.each do |collection| %>
+        <p><%= link_to collection.title, collection %></p>
+        <p><%= collection.description %></p>
+      <% end %>
+
+    </section>
+
+  </div>
+
+</div>
