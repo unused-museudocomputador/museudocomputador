@@ -2,30 +2,3 @@
   About section
 \*------------------------------------*/
 
-.about-img__intro {
-  position: relative;
-  figcaption {
-
-    @include media($mobile) {
-      color: $cm-ared;
-    }
-
-    @include media($tablet) {
-      text-transform: uppercase;
-      color: $cm-ared;
-    }
-
-    @include media($desktop-x) {
-      position: absolute;
-      display: block;
-      width: 100%;
-      text-align: center;
-      bottom: em(5);
-      padding: em(15);
-      background: $ablack;
-      color: $cm-white;
-      font-weight: 800;
-      text-transform: uppercase;
-    }
-  }
-}
