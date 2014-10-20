@@ -7,5 +7,5 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Collection.destroy_all
-# Collection.create(title: 'CPU', description: 'Lorem ipsum!', img: 'img/m1/intel.jpg')
-# Collection.create(title: 'CPU2', description: 'Lorem ipsum 2!', img: 'img/m1/intel3.jpg')
+Collection.create(title: 'CPU', description: 'Lorem ipsum!', img: 'img/m1/intel.jpg')
+Collection.create(title: 'CPU2', description: 'Lorem ipsum 2!', img: 'img/m1/intel3.jpg')

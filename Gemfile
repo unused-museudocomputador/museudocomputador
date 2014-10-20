@@ -70,7 +70,7 @@ gem 'mail_form'
 # Form helpers
 gem 'simple_form'
 
-gem 'active_model_serializers'
+# React
 gem 'react-rails'
 
 # Devise
