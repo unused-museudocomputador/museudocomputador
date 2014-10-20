@@ -76,9 +76,6 @@ gem 'friendly_id', '~> 5.0.0'
 # JSON
 gem 'active_model_serializers'
 
-# React
-gem 'react-rails', '~> 1.0.0.pre', github: 'reactjs/react-rails'
-
 gem 'meta-tags'
 
 # Devise

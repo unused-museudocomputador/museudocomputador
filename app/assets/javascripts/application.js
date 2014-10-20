@@ -15,7 +15,4 @@
 //= require scrollReveal.js
 //= require jquery-validation
 //= require nprogress
-//= require react
-//= require react_ujs
-//= require components
 //= require _blackbriar
