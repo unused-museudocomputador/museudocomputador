@@ -79,6 +79,8 @@ gem 'active_model_serializers'
 # React
 gem 'react-rails'
 
+gem 'meta-tags'
+
 # Devise
 # gem 'devise'
 
