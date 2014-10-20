@@ -77,7 +77,7 @@ gem 'friendly_id', '~> 5.0.0'
 gem 'active_model_serializers'
 
 # React
-gem 'react-rails'
+gem 'react-rails', '~> 1.0.0.pre', github: 'reactjs/react-rails'
 
 gem 'meta-tags'
 

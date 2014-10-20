@@ -5,10 +5,32 @@
     <section class="content-area collection-area">
       <h1 class="area-title collection-area__title">Acervo</h1>
 
+      <div class="collection-container" id="collection-container">
+
+        <% @collections.each do |collection| %>
+        <!-- <article class="collection-item">
+          <figure class="collection-item__figure">
+            <%= image_tag "/assets/#{collection.img}", :class => "collection-item__img img-#{collection.title.downcase}" %>
+            <figcaption><%= collection.description %></figcaption>
+          </figure>
+        </article> -->
+        <% end %>
+<!--
+        <article class="collection-item">
+
+        </article>
+
+        <article class="collection-item">
+
+        </article> -->
+
+
+      </div>
+
       <% @collections.each do |collection| %>
-        <p><%= link_to collection.title, collection %></p>
-        <p><%= collection.description %></p>
-        <p><%= collection.body %></p>
+        <!-- <p><%= link_to collection.title, collection %></p> -->
+        <!-- <p><%= collection.description %></p> -->
+        <!-- <p><%= collection.body %></p> -->
         <!-- <img src="/assets/<%= collection.img %>"> -->
       <% end %>
 

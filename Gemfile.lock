@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/reactjs/react-rails.git
+  revision: b308749911c127757eb192e3229b3627bd92c432
+  specs:
+    react-rails (1.0.0.pre)
+      connection_pool
+      execjs
+      rails (>= 3.1)
+      react-source (= 0.11.1)
+
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
@@ -42,6 +52,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
+    connection_pool (2.0.0)
     dotenv (0.11.1)
       dotenv-deployment (~> 0.0.2)
     dotenv-deployment (0.0.2)
@@ -115,10 +126,6 @@ GEM
     rake (10.3.2)
     rdoc (4.1.2)
       json (~> 1.4)
-    react-rails (0.11.1.0)
-      execjs
-      rails (>= 3.1)
-      react-source (= 0.11.1)
     react-source (0.11.1)
     sass (3.4.6)
     sass-rails (5.0.0.beta1)
@@ -178,7 +185,7 @@ DEPENDENCIES
   rails-assets-retreat-hell
   rails-assets-scrollReveal.js
   rails_12factor
-  react-rails
+  react-rails (~> 1.0.0.pre)!
   sass-rails (~> 5.0.0beta)
   sdoc (~> 0.4.0)
   simple_form
