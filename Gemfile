@@ -70,6 +70,10 @@ gem 'mail_form'
 # Form helpers
 gem 'simple_form'
 
+# URL
+gem 'friendly_id', '~> 5.0.0'
+
+# JSON
 gem 'active_model_serializers'
 
 # React
