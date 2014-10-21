@@ -12,14 +12,16 @@ Collection.create(
   title: 'Computador TK2000',
   description: 'Microcomputador produzido pela empresa brasileira Microdigital Eletrônica Ltda.',
   body: '<p>O TK2000, produzido pela empresa brasileira Microdigital Eletrônica Ltda, foi um microcomputador apresentado ao público durante a Feira de Informática de 1983 e lançado em 1984.</p>
-  <p>Utilizava a CPU 6502 e era parcialmente compatível com o software e hardware do Apple II+. Em 1985, foi lançada uma versão aperfeiçoada (com opção de 128K), o TK2000 II. Em 1987, foi descontinuado.</p>',
+  <p>Utilizava a CPU 6502 e era parcialmente compatível com o software e hardware do Apple II+. Em 1985, foi lançada uma versão aperfeiçoada (com opção de 128K), o TK2000 II. Em 1987, foi descontinuado.</p>
+    <small>Fonte: Wikipedia</small>',
   img: 'collection/tk2000.jpg'
 )
 
 Collection.create(
   title: 'GeForce FX5200 128MB AGP',
   description: 'Placa de vídeo AGP Nvidia',
-  body: '<p>A FX 5200 é uma placa de baixo custo, a mais simples da quinta geração de placas Geforce da nVIDIA. Devido a um erro de produção ela tem seu desempenho em shader com a API DirectX 9 inferior aos modelos semelhantes ATI Radeon entre 10% a 70%. Ainda assim, possui desempenho maior que sua principal concorrente, a ATI Radeon 9250 (que não oferece suporte ao DirectX 9 por Hardware). É baseada no Chip NV34, semelhante a GeForce FX 5500, que tem apenas 20mhz a mais na GPU (270Mhz).</p>',
+  body: '<p>A FX 5200 é uma placa de baixo custo, a mais simples da quinta geração de placas Geforce da nVIDIA. Devido a um erro de produção ela tem seu desempenho em shader com a API DirectX 9 inferior aos modelos semelhantes ATI Radeon entre 10% a 70%. Ainda assim, possui desempenho maior que sua principal concorrente, a ATI Radeon 9250 (que não oferece suporte ao DirectX 9 por Hardware). É baseada no Chip NV34, semelhante a GeForce FX 5500, que tem apenas 20mhz a mais na GPU (270Mhz).</p>
+  <small>Fonte: Wikipedia</small>',
   img: 'collection/fx5200.jpg'
 )
 
