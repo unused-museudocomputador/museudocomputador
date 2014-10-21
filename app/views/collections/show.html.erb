@@ -6,10 +6,9 @@
       <h1 class="area-title collection-area__title">Acervo - <%= @collection.title %></h1>
 
       <figure>
-        <%= image_tag "#{@collection.img}", :class => "collection-item__img img-#{@collection.title.downcase}" %>
+        <%= image_tag "#{@collection.img}", :class => "collection-item__img img-#{@collection.slug}" %>
         <figcaption><%= @collection.description %></figcaption>
       </figure>
-      <p></p>
       <%= raw(@collection.body) %>
 
     </section>

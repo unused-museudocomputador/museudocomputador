@@ -13,21 +13,24 @@ Collection.create(
   description: 'Microcomputador produzido pela empresa brasileira Microdigital Eletrônica Ltda.',
   body: '<p>O TK2000, produzido pela empresa brasileira Microdigital Eletrônica Ltda, foi um microcomputador apresentado ao público durante a Feira de Informática de 1983 e lançado em 1984.</p>
   <p>Utilizava a CPU 6502 e era parcialmente compatível com o software e hardware do Apple II+. Em 1985, foi lançada uma versão aperfeiçoada (com opção de 128K), o TK2000 II. Em 1987, foi descontinuado.</p>',
-  img: ''
+  img: 'collection/tk2000.jpg'
 )
 
 Collection.create(
-  title: 'GeForce FX5200 LF 128MB AGP',
-  description: 'Placa de vídeo AGP',
-  body: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut excepturi eligendi, aliquid repudiandae possimus rem quasi omnis doloribus expedita eos iusto quis, hic quisquam repellendus velit ducimus corporis quia placeat?</p>',
-  img: ''
+  title: 'GeForce FX5200 128MB AGP',
+  description: 'Placa de vídeo AGP Nvidia',
+  body: '<p>A FX 5200 é uma placa de baixo custo, a mais simples da quinta geração de placas Geforce da nVIDIA. Devido a um erro de produção ela tem seu desempenho em shader com a API DirectX 9 inferior aos modelos semelhantes ATI Radeon entre 10% a 70%. Ainda assim, possui desempenho maior que sua principal concorrente, a ATI Radeon 9250 (que não oferece suporte ao DirectX 9 por Hardware). É baseada no Chip NV34, semelhante a GeForce FX 5500, que tem apenas 20mhz a mais na GPU (270Mhz).</p>',
+  img: 'collection/fx5200.jpg'
 )
 
 Collection.create(
   title: 'Console SNES',
   description: 'Videogame de 16-bits da Nintendo',
-  body: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut excepturi eligendi, aliquid repudiandae possimus rem quasi omnis doloribus expedita eos iusto quis, hic quisquam repellendus velit ducimus corporis quia placeat?</p>',
-  img: ''
+  body: '<p>Super Nintendo Entertainment System (também conhecido como o Super NES, SNES ou Super Nintendo) é um console de videogame de 16 bits desenvolvido pela Nintendo que foi lançado em 1990 no Japão, 1991 nos Estados Unidos, 1992 na Europa e Australásia (Oceania) e América do Sul em 1993. No Japão, o sistema é chamado de Super Famicom, oficialmente, adotando o nome abreviado do seu antecessor, o Family Computer), ou SFC para breve. Na Coréia do Sul, é conhecida como a Super Comboy e foi distribuído pela Hyundai Electronics. Embora cada versão é essencialmente o mesmo, várias formas de bloqueio regional impedem as diferentes versões sejam compatíveis entre si.</p>
+    <p>O Super Nintendo Entertainment System é o segundo home console da Nintendo, o Nintendo Entertainment System (NES) foi o primeiro. O console apresentou gráficos avançados e recursos de som em comparação com outros consoles na época. Além disso, o desenvolvimento de uma variedade de chips de aprimoramento (que foram integrados em placas de circuito jogos) ajudou a mantê-lo competitivo no mercado. Enquanto brutos gráficos tridimensionais raramente tinham sido vistos antes em consoles domésticos, utilizando o chip Super FX começando com Star Fox em 1993, o SNES foi capaz de rodar jogos com o mais suave e mais detalhados gráficos tridimensionais, que era anteriormente possível. Isso despertou interesse mais difundido em gráficos de polígono na indústria, ajudando a inaugurar em gráficos 3D, como pode ser visto na quinta geração de consoles de videogame.</p>
+    <p>O SNES foi um sucesso mundial, tornando-se o console mais vendido da época apesar de seu início relativamente tardio e a competição feroz que enfrentou na Europa e América do norte. O SNES permaneceu popular até a era de 32 bits e continua a ser popular entre os fãs, colecionadores, retro gamers e entusiastas de emulação, alguns dos quais ainda estão fazendo imagens ROM homebrew. O sucesso de sua venda foi superior a 50 milhões de unidades por todo o mundo. O SNES foi oficialmente descontinuado em 1999 nos Estados Unidos, e em Setembro de 2003, no Japão.</p>
+      <small>Fonte: Wikipedia</small>',
+  img: 'collection/snes.jpg'
 )
 
 Collection.create(
