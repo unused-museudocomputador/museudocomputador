@@ -3,10 +3,11 @@
 \*------------------------------------*/
 
 //= depend_on_asset "m1/cpus.jpg"
+//= depend_on_asset "m1/memos.jpg"
 
+.collection-block,
 .welcome-block {
   position: relative;
-  background-image: url(<%= asset_path 'm1/cpus2.jpg' %>);
   background-size: cover;
   width: 100%;
 
@@ -23,6 +24,15 @@
   }
 }
 
+.welcome-block {
+  background-image: url(<%= asset_path 'm1/cpus2.jpg' %>);
+}
+
+.collection-block {
+  background-image: url(<%= asset_path "m1/memos.jpg" %>);
+}
+
+.collection-block__title,
 .welcome-block__title {
   position: absolute;
   top: 50%;
@@ -53,13 +63,14 @@
   }
 }
 
-.site-promo,
-.site-collection {
-  padding: em(90) 0;
+.collection-block__title {
+  cursor: pointer;
 }
 
-.site-collection,
-.site-promo__welcome {
+.site-promo,
+.site-history,
+.site-contact__block {
+  padding: em(90) 0 em(120) 0;
   text-align: center;
 }
 
