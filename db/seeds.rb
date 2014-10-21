@@ -50,3 +50,14 @@ Collection.create(
   <small>Fonte: Wikipedia</small>',
   img: 'collection/sega-master-system.jpg'
 )
+
+Collection.create(
+  title: 'Intel Pentium',
+  description: 'Pentium sucessor da linha 486 da Intel',
+  body: '
+    <p>O Pentium é a quinta geração da arquitetura x86 de microprocessadores criada pela Intel, em 22 de Março de 1993. Foi o sucessor da linha 486. Ele seria originalmente denominado 80586, ou i586, mas como números não podem ser registrados o nome foi alterado para Pentium (presumivelmente pelo fato da raiz grega "pent-" significar "cinco"). O termo i586, entretanto, é usado em programação para se referir a todos os primeiros processadores Pentium (e aos similares fabricados pelos competidores da Intel).</p>
+    <p>O Pentium possui dois canais de execução de dados ("pipelines") que lhe permitem completar mais do que uma instrução por ciclo de clock. Um canal (denominado "U") lida com qualquer tipo de instrução, enquanto o outro (denominado "V") lida apenas com as instruções mais simples e comuns. O uso de mais do que um canal de dados era uma característica quase exclusiva dos processadores RISC. A sua adopção no Pentium foi uma novidade significativa na linha da plataforma x86 que até então era totalmente CISC. Depois seguiram-se outras melhorias inspiradas em tecnologias já conhecidas das máquinas RISC, mostrando ser possível combinar as duas filosofias.</p>
+      <small>Fonte: Wikipedia</small>
+  ',
+  img: 'collection/intel-pentium.jpg'
+)

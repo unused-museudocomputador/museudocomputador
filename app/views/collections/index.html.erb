@@ -4,11 +4,9 @@
 
     <section class="content-area collection-area">
       <h1 class="area-title collection-area__title">Acervo</h1>
-
+      <p>Aqui você encontra algum dos itens do acervo do Museu do Computador</p>
       <div class="collection-container" id="collection-container">
-
         <% @collections.each do |collection| %>
-
           <%= link_to collection, :class => 'collection-item__link' do %>
           <article data-scroll-reveal="enter ease-in-out, after 0.3s" class="collection-item">
             <h2 data-scroll-reveal="enter ease-in-out, after 0.5s" class="collection-item__title"><%= collection.title %></h2>
