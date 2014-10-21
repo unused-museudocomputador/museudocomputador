@@ -2,14 +2,13 @@
   Home styles
 \*------------------------------------*/
 
-//= depend_on_asset "m1/intel.jpg"
+//= depend_on_asset "m1/cpus.jpg"
 
 .welcome-block {
   position: relative;
-  background-image: url(<%= asset_path 'm1/intel.jpg' %>);
+  background-image: url(<%= asset_path 'm1/cpus2.jpg' %>);
   background-size: cover;
   width: 100%;
-  background-attachment: fixed;
 
   @include media($mobile) {
     height: 300px;
@@ -56,7 +55,7 @@
 
 .site-promo,
 .site-collection {
-  padding: em(60) 0;
+  padding: em(90) 0;
 }
 
 .site-collection,
@@ -81,4 +80,15 @@
     background: $cm-agrey;
     color: $cm-ared;
   }
+}
+
+.overlay-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: $ablack;
 }
