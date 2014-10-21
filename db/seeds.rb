@@ -22,7 +22,7 @@ Collection.create(
   description: 'Microcomputador produzido pela empresa brasileira Prológica.',
   body: '<p>Compatível com os periféricos dos PCs da IBM com e dos XTs, o Solution 16 prometia “a memória e a força do elefante, sem o tamanho e o preço do elefante”.</p>
   <p>A tela monocromática verde tinha 12 polegadas e, além do leitor de disquetes padrão 5 e ¼, o Solution trazia 512 kbs de memória RAM e interface para impressora paralela.</p>
-    <small>Fonte: Wikipedia</small>',
+    <small>Fonte: Revista Info</small>',
   img: 'm1/solution-16.jpg'
 )
 
