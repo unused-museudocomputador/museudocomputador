@@ -8,12 +8,12 @@
       <div class="collection-container" id="collection-container">
 
         <% @collections.each do |collection| %>
-        <article class="collection-item">
-          <figure class="collection-item__figure">
-            <%= image_tag "/assets/#{collection.img}", :class => "collection-item__img img-#{collection.title.downcase}" %>
-            <figcaption><%= collection.description %></figcaption>
-          </figure>
-        </article>
+
+          <%= link_to collection, :class => 'collection-item__link' do %>
+          <article data-scroll-reveal="enter ease-in-out, after 0.3s" class="collection-item">
+            <p><%= collection.title %></p>
+          </article>
+          <% end %>
         <% end %>
 
       </div>

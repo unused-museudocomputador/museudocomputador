@@ -1,3 +1,46 @@
-// Place all the styles related to the collection controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/*------------------------------------*\
+  Collection style
+\*------------------------------------*/
+
+.collection-item__link {
+  position: relative;
+  display: block;
+
+  @include media($mobile) {
+    height: 250px;
+    margin-bottom: 20px;
+    @include span-columns(4);
+    @include omega();
+  }
+
+  @include media($tablet) {
+    height: 250px;
+    margin-bottom: 20px;
+    @include span-columns(4);
+    @include omega(2n);
+  }
+
+  @include media($desktop-x) {
+    height: 250px;
+    margin-bottom: 20px;
+    @include span-columns(4);
+    @include omega(3n);
+  }
+}
+
+.collection-item {
+  background: $cm-ared;
+  display: block;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+
+  p {
+    text-align: center;
+  }
+
+  &:hover {
+    background: $cm-blue;
+  }
+
+}
