@@ -4,9 +4,11 @@
 
 input,
 textarea {
+  -webkit-appearance: none;
   background: $cm-ablue;
   color: $cm-agrey;
   border: 2px solid $cm-ablue;
+  border-radius: 0;
   outline: none;
   width: 100%;
   margin-top: em(10);
