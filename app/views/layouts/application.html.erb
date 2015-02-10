@@ -10,25 +10,12 @@
   <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
   <title>Museu do Computador - Beta</title>
 
+  <%= render 'layouts/webfonts' %>
+
   <style type="text/css">
   <%= raw Rails.application.assets['retreat-hell.css'] %>
   <%= raw Rails.application.assets['application.css'] %>
   </style>
-
-  <script type="text/javascript">
-    WebFontConfig = {
-      google: { families: [ 'Open+Sans:400italic,300,400,600,800:latin' ] }
-    };
-    (function() {
-      var wf = document.createElement('script');
-      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-      wf.type = 'text/javascript';
-      wf.async = 'true';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(wf, s);
-    })();
-  </script>
 
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
